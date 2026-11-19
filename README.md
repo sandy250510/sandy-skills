@@ -1,2 +1,15 @@
-# sandy-skills
-Practical AI skills for repeatable workflows.
+# 闲鱼 Python 商品制作 Skill
+
+根据 Excel 采集表或 Flomo 对标笔记，协助整理闲鱼 Python 服务商品文案、价格字段、标签和图片制作要求。先预览第一件，再按用户确认的范围制作；不自动上架。
+
+## 使用
+
+将 `SKILL.md` 所在目录放到支持 Agent Skills 的工具的技能目录，并按工具要求重新加载。对 AI 说：
+
+> 使用 xianyu-python-remix，根据我提供的采集表制作 1 件候选商品，先给我预览。
+
+准备原始采集表或 Flomo 笔记、可用图片、可证明的服务能力及经确认的标签。Flomo、网页访问与图片生成能力取决于所使用的工具；缺少这些能力时，Skill 会说明限制。请勿上传客户隐私或未经授权的素材。
+
+本公开版由 AI 根据本地闲鱼商品制作工作流及用户确认的修改整理，移除了本机路径、账号链接和采集数据；通用版尚未经过真实商品制作验收。
+
+MIT License，见 [LICENSE](LICENSE)。
